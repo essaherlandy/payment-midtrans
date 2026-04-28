@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
+	"github.com/essaherlandy/payment-midtrans/services"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/joho/godotenv"
-	"github.com/payment-backend/services"
 )
 
 func main() {

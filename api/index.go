@@ -3,10 +3,10 @@ package handler
 import (
 	"net/http"
 
+	"github.com/essaherlandy/payment-midtrans/services"
 	"github.com/gofiber/adaptor/v2"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/payment-backend/services"
 )
 
 var app *fiber.App

@@ -1,4 +1,4 @@
-module github.com/payment-backend
+module github.com/essaherlandy/payment-midtrans
 
 go 1.26.1
 
