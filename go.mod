@@ -3,6 +3,7 @@ module github.com/payment-backend
 go 1.26.1
 
 require (
+	github.com/gofiber/adaptor/v2 v2.2.1
 	github.com/gofiber/fiber/v2 v2.52.13
 	github.com/joho/godotenv v1.5.1
 	github.com/midtrans/midtrans-go v1.3.8
